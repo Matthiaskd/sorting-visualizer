@@ -1,0 +1,138 @@
+body{
+  margin: 0px;
+  padding: 0px
+}
+h1{
+  margin:0px;
+  font-size: 60px;
+  color: #ffffff;
+  font-family:arial;
+  font-weight:bold;
+  text-align: center;
+}
+.bg{
+  background-color: #24252A;
+  height: 25vh
+}
+
+ .center{
+  font-family: arial;
+  position: absolute;
+  top: 10%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+ul{
+  padding: 0px;
+  margin: 0px;
+  display:flex;
+}
+
+
+ul li{
+  list-style: none;
+  border: 2px solid #fff;
+  border-radius:4px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 30px;
+  border-radius: arial;
+}
+ul li a {
+  text-decoration: none;
+  padding: 15px 35px;
+  display:block;
+  text-align: center;
+}
+
+ul li:nth-child(1) a{
+  color:white;
+}
+ul li:nth-child(2) a{
+  color:white;
+}
+ul li:nth-child(3) a{
+  color:white;
+}
+.visualizer{
+  background-color: #24252A;
+  height: 75vh;
+}
+
+.canv{
+  position: absolute;
+  margin: 50px 400px;
+  height: 65vh;
+  width:1000px;
+}
+
+.bar{
+  border:0;
+  padding:50px;
+  display:flex;
+  width:10px;
+}
+
+.slide_function{
+  margin: -3px 10px;
+  color: white;
+  width: 50px;
+  font-family:arial;
+  align-items:center;
+  text-align:center;
+  display:flex;
+}
+
+.slider{
+  position:absolute;
+  margin: 200px 0px;
+  width:50px;
+}
+#slider{
+  -webkit-appearance:none;
+  left:-6px;
+  top:0;
+  width:212px;
+  height:10px;
+  background-color:white;
+  border-radius:20px;
+  border: 2px solid gray;
+
+}
+#slider::-webkit-slider-thumb{
+  -webkit-appearance:none;
+  width:20px;
+  height:19px;
+  background-color:white;
+  border-radius:50%;
+  border: 4px solid gray;
+}
+
+
+
+
+.slider2{
+  position:absolute;
+  margin: 400px 0px;
+  width:50px;
+}
+#slider2{
+  -webkit-appearance:none;
+  left:-6px;
+  top:0;
+  width:212px;
+  height:10px;
+  background-color:white;
+  border-radius:20px;
+  border: 2px solid gray;
+
+}
+#slider2::-webkit-slider-thumb{
+  -webkit-appearance:none;
+  width:20px;
+  height:19px;
+  background-color:white;
+  border-radius:50%;
+  border: 4px solid gray;
+}
